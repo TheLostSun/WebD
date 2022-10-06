@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background-color: rgb(26, 1, 1);
+}
+.header{
+    align-items: center;
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(226, 142, 14);
+}
+.left-section{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 250px;
+}
+.right-section{
+    display: flex;
+    margin-right: 30px;
+}
+.SignUp{
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: rgb(226, 142, 14);
+    border-style: solid;
+    transition-delay: 0.1s;
+}
+.SignUp:hover{
+    color: wheat;
+    background-color:black ;
+}
+.SignUp:active{
+    opacity: 0.5;
+}
+.logo{
+    width:60px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.ImageName{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.Navbar{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.NavButtons{
+    color:black;
+    margin-left:16px;
+    transition-delay: 0.5s;
+    transition: ease-in-out;
+}
+.NavButtons:hover{
+    color:white;
+}
+
+.body-section{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ImageGrid{
+    display: flex;
+    flex: 1;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Images{
+    width:400px;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    transition-delay: 0.2s;
+    transition: ease-in-out;
+
+}
+.Images:hover{
+    transform: scale(1.1);
+    opacity:0.8;
+
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(226, 142, 14);
+    justify-content: center;
+}
+.Trademark{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
